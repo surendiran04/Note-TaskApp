@@ -10,6 +10,6 @@ export const NotesContext = React.createContext();
     )} ;
 
  
- export default NotesProvider;
+ export default { NotesProvider };
 
 

@@ -1,11 +1,11 @@
 import React, { useContext } from "react";
 import { Input, Card, FormGroup, Button } from "reactstrap";
-import NotesContext from "../Context/NoteContext";
+ import { NotesContext } from "../Context/NoteContext";
 
 export default function NotesInput() {
    const { NotesTitle, setNotesTitle} = useContext(NotesContext);
   
-
+     console.log(NotesTitle,setNotesTitle)
   return (
     <div classname="bg-body">
       <Card
